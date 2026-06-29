@@ -13,6 +13,7 @@ int idx=pos-1;//0 based indexing
 for(int j=n;j>idx;j--){
     arr[j]=arr[j-1];
     }
+        //insert element x at idx
     arr[idx]=x;
     for(int i=0;i<arr.length;i++){
         System.out.print(arr[i]+" ");
